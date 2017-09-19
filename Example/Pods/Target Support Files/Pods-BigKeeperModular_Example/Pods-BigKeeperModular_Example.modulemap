@@ -1,0 +1,6 @@
+framework module Pods_BigKeeperModular_Example {
+  umbrella header "Pods-BigKeeperModular_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BigKeeperModular (0.1.0)
+
+DEPENDENCIES:
+  - BigKeeperModular (from `../`)
+
+EXTERNAL SOURCES:
+  BigKeeperModular:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BigKeeperModular: 6a8230aa173c0c624607cdb218554060a63c5633
+
+PODFILE CHECKSUM: c50cd751d68514b222e92f7e1676ec5ae3e2edcb
+
+COCOAPODS: 1.2.1
