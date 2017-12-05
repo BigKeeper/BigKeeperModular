@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CA9E6F00C36AFEFDAEAC5BD /* BigKeeperModular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BigKeeperModular.podspec; path = ../BigKeeperModular.podspec; sourceTree = "<group>"; };
-		181193199CE740660D188224 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CA9E6F00C36AFEFDAEAC5BD /* BigKeeperModular.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BigKeeperModular.podspec; path = ../BigKeeperModular.podspec; sourceTree = "<group>"; };
+		181193199CE740660D188224 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2848307D9FAE0FC4E99552BC /* Pods_BigKeeperModular_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigKeeperModular_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B93F110288F9242499E8494 /* Pods-BigKeeperModular_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperModular_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperModular_Tests/Pods-BigKeeperModular_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EC85BEC8D851B3D258797BC /* Pods_BigKeeperModular_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigKeeperModular_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		6DF425A07125962932A2850A /* Pods-BigKeeperModular_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperModular_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperModular_Example/Pods-BigKeeperModular_Example.release.xcconfig"; sourceTree = "<group>"; };
 		82CE21539E963F5E138E7880 /* Pods-BigKeeperModular_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperModular_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperModular_Example/Pods-BigKeeperModular_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		97D5F45C1E603BE79DE486AB /* Pods-BigKeeperModular_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperModular_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperModular_Tests/Pods-BigKeeperModular_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8576EA5113E5F60E051D31F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C8576EA5113E5F60E051D31F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2LGH7NQTVL;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -496,6 +497,7 @@
 			baseConfigurationReference = 82CE21539E963F5E138E7880 /* Pods-BigKeeperModular_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LGH7NQTVL;
 				INFOPLIST_FILE = BigKeeperModular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +512,7 @@
 			baseConfigurationReference = 6DF425A07125962932A2850A /* Pods-BigKeeperModular_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LGH7NQTVL;
 				INFOPLIST_FILE = BigKeeperModular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
